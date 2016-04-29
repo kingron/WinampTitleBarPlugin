@@ -1,0 +1,133 @@
+[FileVersion]
+Version=6.0
+[Compiler]
+A=8
+B=0
+C=0
+D=1
+E=0
+F=0
+G=1
+H=1
+I=0
+J=0
+K=0
+L=1
+M=0
+N=1
+O=1
+P=0
+Q=0
+R=0
+S=0
+T=0
+U=0
+V=0
+W=0
+X=1
+Y=2
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=4194304
+ExeDescription=
+[Directories]
+OutputDir=E:\Tools\Media\Winamp\Plugins
+UnitOutputDir=$(Temp)
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=
+Packages=
+Conditionals=
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=E:\Tools\Media\Winamp\winamp.exe
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=2
+MinorVer=0
+Release=9
+Build=21
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=1
+Locale=1033
+CodePage=1252
+[Version Info Keys]
+CompanyName=WellSoft.Corp
+FileDescription=Kingron's Winamp Shade TitleBar plugin
+FileVersion=2.0.9.21
+InternalName=WinampTitlebar Control
+LegalCopyright=Copyright Kingron 2003,All rights reserved.
+LegalTrademarks=WellSoft
+OriginalFilename=Gen_Titlebar.dll
+ProductName=Winamp Shade Titlebar Control
+ProductVersion=1.0.0.0
+Comments=
+[Excluded Packages]
+C:\Program Files\Borland\Delphi6\Bin\dclstd60.bpl=Borland Standard Components
+c:\program files\borland\delphi6\Bin\dclsmpedit60.bpl=Borland Editor Script Enhancements
+c:\program files\borland\delphi6\Bin\applet60.bpl=Borland Control Panel Applet Package
+c:\program files\borland\delphi6\Bin\dclemacsedit60.bpl=Borland Editor Emacs Enhancements
+c:\program files\borland\delphi6\Bin\dclact60.bpl=Borland ActionBar Components
+c:\program files\borland\delphi6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+c:\program files\borland\delphi6\Bin\dclsmp60.bpl=Borland Sample Components
+c:\program files\borland\delphi6\Bin\dclshlctrls60.bpl=Shell Control Property and Component Editors
+c:\program files\borland\delphi6\Bin\dclie60.bpl=Internet Explorer Components
+c:\program files\borland\delphi6\Bin\dclocx60.bpl=Borland Sample Imported ActiveX Controls
+c:\program files\borland\delphi6\Bin\dclindy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+c:\program files\borland\delphi6\Bin\dcloffice2k60.bpl=Microsoft Office 2000 Sample Automation Server Wrapper Components
+c:\program files\borland\delphi6\Projects\Bpl\dclusr60.bpl=Borland User Components
+c:\program files\borland\delphi6\Bin\dclnet60.bpl=Borland Internet Components
+c:\program files\borland\delphi6\Bin\dclwbm60.bpl=Borland InternetExpress Components
+C:\Program Files\Borland\Delphi6\Bin\dcldb60.bpl=Borland Database Components
+c:\program files\borland\delphi6\Bin\DCLNMF60.bpl=NetMasters Fastnet Tools
+c:\program files\borland\delphi6\Bin\dclado60.bpl=Borland ADO DB Components
+C:\Program Files\Borland\Delphi6\Bin\dbx60.bpl=Borland SQL Explorer UI Package
+c:\program files\borland\delphi6\Bin\DCLIB60.bpl=InterBase Data Access Components
+C:\Program Files\Borland\Delphi6\Bin\dclmid60.bpl=Borland MyBase DataAccess Components
+C:\WINDOWS\System32\ibevnt60.bpl=Borland Interbase Event Alerter Component
+c:\program files\borland\delphi6\Bin\dclmcn60.bpl=Borland DataSnap Connection Components
+c:\program files\borland\delphi6\Bin\dclwebsnap60.bpl=Borland WebSnap Components
+c:\program files\borland\delphi6\Bin\dclsoap60.bpl=Borland SOAP Components
+c:\program files\borland\delphi6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files\borland\delphi6\Bin\dcldbx60.bpl=Borland dbExpress Components
+c:\program files\borland\delphi6\Bin\dclbde60.bpl=Borland BDE DB Components
+c:\program files\borland\delphi6\Bin\dclcds60.bpl=Borland Base Cached ClientDataset Component
+c:\program files\borland\delphi6\Bin\dclbdecds60.bpl=Borland Local BDE ClientDataset Components
+c:\program files\borland\delphi6\Bin\dclqrt60.bpl=QuickReport Components
+c:\program files\borland\delphi6\Bin\dcldss60.bpl=Borland Decision Cube Components
+C:\Program Files\Borland\Delphi6\Bin\dcltee60.bpl=TeeChart Components
+c:\program files\borland\delphi6\Bin\dcltqr60.bpl=TeeChart for QuickReport Components
+c:\program files\borland\delphi6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+C:\Program Files\Borland\Delphi6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+c:\program files\borland\delphi6\Bin\dcldbxcds60.bpl=Borland Local DBX ClientDataset Components
+c:\program files\borland\delphi6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+[HistoryLists\hlUnitAliases]
+Count=1
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlUnitOutputDirectory]
+Count=1
+Item0=$(Temp)
+[HistoryLists\hlOutputDirectorry]
+Count=3
+Item0=E:\Tools\Media\Winamp\Plugins
+Item1=D:\Winamp\Plugins
+Item2=D:\Multi Media\Winamp\Plugins

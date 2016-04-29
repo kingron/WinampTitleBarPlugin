@@ -1,0 +1,167 @@
+//Microsoft Developer Studio generated resource script.
+//
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "resource.hm"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CONFIG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG_DIALOG DIALOGEX 0, 0, 251, 221
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Title Bar Control Configuration"
+FONT 8, "Times New Roman"
+BEGIN
+    CONTROL         "&Dock to active window",IDC_DOCK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,41,85,10,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Slider2",IDC_ALPHA,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,13,67,159,15,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_PREV,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,35,94,81,10
+    CONTROL         "HotKey1",IDC_NEXT,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,144,94,93,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_VOLUP,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,35,108,81,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_VOLDOWN,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,144,108,93,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_SHUFF,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,35,122,81,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_REPEAT,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,144,122,93,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_PAUSE,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,35,136,81,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_SHOW,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,144,136,93,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_DELCURRFILE,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,35,149,81,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_ADDFAV,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,144,149,93,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_ID3,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,35,162,81,10,WS_EX_TRANSPARENT
+    CONTROL         "HotKey1",IDC_FWD,"msctls_hotkey32",WS_BORDER | 
+                    WS_TABSTOP,143,161,93,10,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "&OK",IDOK,192,40,50,13,WS_DISABLED,0,HIDOK
+    PUSHBUTTON      "&Cancel",IDCANCEL,192,57,50,13,0,0,HIDCANCEL
+    PUSHBUTTON      "&Apply",IDC_APPLY,192,73,50,13,WS_DISABLED
+    EDITTEXT        IDC_HELP,7,179,235,38,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL,
+                    WS_EX_TRANSPARENT
+    GROUPBOX        "Hot Key: ",IDC_STATIC,7,84,235,92,BS_LEFT | BS_FLAT,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Alpha value for Winamp Main,EQ,PE,MB window (Win2K or Higher only,255 = Disable Blend):",
+                    IDC_STATIC,7,52,174,17,0,WS_EX_TRANSPARENT
+    CTEXT           "http://kingron.delphibbs.com",IDC_WWW,41,25,201,12,
+                    SS_CENTERIMAGE | WS_BORDER,WS_EX_TRANSPARENT
+    CTEXT           "Titlebar control v2.0.9beta for Winamp v2.x\nCopyright (C) Kingron,2003-2004,All rights reserved.",
+                    IDC_STATIC,42,7,200,17,0,WS_EX_TRANSPARENT
+    RTEXT           "0",IDC_STATIC,7,69,8,9,SS_NOPREFIX,WS_EX_TRANSPARENT
+    LTEXT           "255",IDC_STATIC,171,69,13,8,0,WS_EX_TRANSPARENT
+    LTEXT           "1",IDC_POS,154,61,23,8,0,WS_EX_TRANSPARENT
+    ICON            IDI_ICON,IDC_ICON,7,7,21,20
+    RTEXT           "Next:",IDC_STATIC,117,95,25,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Prev:",IDC_STATIC,12,95,21,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Vol +:",IDC_STATIC,9,110,24,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Vol -:",IDC_STATIC,118,110,24,8,0,WS_EX_TRANSPARENT
+    RTEXT           "shuffle:",IDC_STATIC,9,124,24,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Repeat:",IDC_STATIC,119,124,23,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Pause:",IDC_STATIC,9,137,24,8,0,WS_EX_TRANSPARENT
+    RTEXT           "H/S-:",IDC_STATIC,118,137,24,8,0,WS_EX_TRANSPARENT
+    LTEXT           "del curr:",IDC_STATIC,9,150,25,8,0,WS_EX_TRANSPARENT
+    RTEXT           "add fav:",IDC_STATIC,117,150,24,8,0,WS_EX_TRANSPARENT
+    RTEXT           "ID3:",IDC_STATIC,14,164,18,8,0,WS_EX_TRANSPARENT
+    RTEXT           "Fwd 5s:",IDC_STATIC,119,162,24,8,0,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "Icon.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc2.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""resrc1.h""\r\n"
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

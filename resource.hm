@@ -1,0 +1,5 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by ConfigDialog.rc
+//
+#define HIDCANCEL                       0x80650002    // IDD_CONFIG_DIALOG [Neutral]
+#define HIDOK                           0x80650001    // IDD_CONFIG_DIALOG [Neutral]

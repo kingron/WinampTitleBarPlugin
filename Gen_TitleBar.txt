@@ -1,0 +1,51 @@
+Kingron's Windowshade Docking Plug-in v2.0.9
+============================================
+
+This plug-in makes Winamp's main window dock to whatever 
+window you happen to be working in. It only docks when 
+you are in Windowshade mode, and only after you have 
+enabled the plug-in. To enable the plug-in, simply open 
+Winamp, open the preferences, go the the Plug-ins General
+Purpose section, select 'Kingron's Winamp TitleBar Control 
+v0.2.0.9', and hit configure.
+
+Help
+  A) Dock to active window
+     Enable Winamp main window dock to the activate window,
+     only for windowshade mode.
+  B) Alpah value for Main...
+     Set the alpha value of the winamp's window(Win2k/higher only)
+  C) Global hot key (Recommand)
+     1. Prev      Ctrl + Num 4
+        Play the Previouse track of current playlist
+     2. Next      Ctrl + Nun 6
+        Play the next track of current playlist
+     3. Vol +     Ctrl + Num 8
+        Set volume up
+     4. Vol -     Ctrl + Num 2
+        set volume down
+     5. shuffle   Ctrl + Num *
+        taggle winamp shuffle
+     6. Repeat    Ctrl + Num /
+        taggle winamp repeat
+     7. Pause     Ctrl + Num 5
+        taggle play
+     8. H/S-      Ctrl + Num -
+        Show/Hide winamp main window
+     9. del curr  Ctrl + Num Del
+        delete disk file of current track, No confirm
+     10.add fav   Ctrl + Num +
+        Add the current track to "My Favorite.m3u"
+     11.ID3       Alt + 3
+        Show file info dialog
+     12.Fwd 5s    Ctrl + Alt + Num 5
+        Fast-forward 5 seconds
+
+Bugs:
+  when double click winamp shade window,the Winamp Main window 
+  maybe hide, there are two methods to avoid it:
+  1) before double click,move the window to another position first
+  2) Use the config dialog disable alpha blend
+
+Copyright (C) 2003 Kingron, Powered by Delphi 6.0
+Winamp.v2.x.Kingron.Titlebar.Dock
